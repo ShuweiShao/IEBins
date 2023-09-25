@@ -14,4 +14,9 @@
     <sup>1</sup>Beihang University, <sup>2</sup>Anhui University, <sup>3</sup>A*STAR
 </div>
 
+<div>
+    <h4 align="center">
+        • <a href=" https://arxiv.org/submit/5133242" target='_blank'>[NeurIPS 2023]</a> •
+    </h4>
+</div>
 The source code and trained models will be publicly available in the near future.
