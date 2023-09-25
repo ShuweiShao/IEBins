@@ -25,4 +25,8 @@
 <img src="Assets/teaser.jpg"  width="70%" height="70%">
 </div>
 
+---
+
+</div>
+
 The source code and trained models will be publicly available in the near future.
