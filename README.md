@@ -16,7 +16,7 @@
 
 <div>
     <h4 align="center">
-        • <a href="https://arxiv.org/pdf/2309.14137.pdf" target='_blank'>[NeurIPS 2023]</a> •
+        • <a href="https://arxiv.org/pdf/2309.14137.pdf" target='_blank'>NeurIPS 2023</a> •
     </h4>
 </div>
 <strong>We propose a novel concept of iterative elastic bins for the classification-regression-based MDE. The proposed IEBins aims to search for high-quality depth by progressively optimizing the search range, which involves multiple stages and each stage performs a finer-grained depth search in the target bin on top of its previous stage. To alleviate the possible error accumulation during the iterative process, we utilize a novel elastic target bin to replace the original target bin, the width of which is adjusted elastically based on the depth uncertainty. </strong>
