@@ -105,4 +105,4 @@ If you have any questions, please feel free to contact swshao@buaa.edu.cn.
 
 ## Acknowledgement
 
-Our code is based on the implementation of [NewCRFs](https://github.com/aliyun/NeWCRFs) and [BTS](https://github.com/cleinc/bts). We thank their excellent works.
+Our code is based on the implementation of [NeWCRFs](https://github.com/aliyun/NeWCRFs) and [BTS](https://github.com/cleinc/bts). We thank their excellent works.
