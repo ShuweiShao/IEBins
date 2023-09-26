@@ -84,6 +84,24 @@ Please refer to the test.py.
 |KITTI_Eigen (Swin-T)| 0.056 | 0.169 | 2.205 | 0.084 | 0.970 | 0.996 | 0.999 | 7.738 |
 
 
+## Citation
+
+If you find our work useful in your research please consider citing our paper:
+
+```
+@inproceedings{
+shao2023IEBins,
+title={IEBins: Iterative Elastic Bins for
+Monocular Depth Estimation},
+author={Shao, Shuwei and Pei, Zhongcai and
+Wu, Xingming and Liu, Zhong and Chen, Weihai and
+Li, Zhengguo},
+booktitle={Advances in Neural Information
+Processing Systems (NeurIPS)},
+year={2023}
+}
+```
+
 ## Contact
 
 If you have any questions, please feel free to contact swshao@buaa.edu.cn.
