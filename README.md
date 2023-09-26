@@ -29,4 +29,66 @@
 
 </div>
 
-The source code and trained models will be publicly available in the near future.
+## Installation
+```
+conda create -n iebins python=3.8
+conda activate iebins
+conda install pytorch=1.10.0 torchvision cudatoolkit=11.1
+pip install matplotlib, tqdm, tensorboardX, timm, mmcv, open3d
+```
+
+## Datasets
+You can prepare the datasets KITTI and NYUv2 according to [here](https://github.com/cleinc/bts) and download the SUN RGB-D dataset from [here](https://rgbd.cs.princeton.edu/), and then modify the data path in the config files to your dataset locations.
+
+
+## Training
+First download the pretrained encoder backbone from [here](https://github.com/microsoft/Swin-Transformer), and then modify the pretrain path in the config files.
+
+Training the NYUv2 model:
+```
+python iebins/train.py configs/arguments_train_nyu.txt
+```
+
+Training the KITTI model:
+```
+python iebins/train.py configs/arguments_train_kittieigen.txt
+```
+
+## Evaluation
+Evaluate the NYUv2 model:
+```
+python iebins/eval.py configs/arguments_eval_nyu.txt
+```
+
+Evaluate the NYUv2 model on the SUN RGB-D dataset:
+```
+python iebins/eval_sun.py configs/arguments_eval_sun.txt
+```
+
+Evaluate the KITTI model:
+```
+python iebins/eval.py configs/arguments_eval_kittieigen.txt
+```
+
+
+## Qualitative Depth and Point Cloud Results
+Please refer to the test.py.
+
+
+## Models
+| Model | Abs.Rel. | Sqr.Rel | RMSE | RMSElog | a1 | a2 | a3| SILog| 
+| :--- | :---: | :---: | :---: |  :---: |  :---: |  :---: |  :---: |  :---: |
+|NYUv2 (Swin-L) | 0.087 | 0.040 | 0.314 | 0.112 | 0.936 | 0.992 | 0.998 | 8.777 |
+|NYUv2 (Swin-T)| 0.108 | 0.061 | 0.375 | 0.136 | 0.893 | 0.984 | 0.996 | 10.932 |
+|KITTI_Eigen (Swin-L)| 0.050 | 0.142 | 2.011 | 0.075 | 0.978 | 0.998 | 0.999 | 6.821 |
+|KITTI_Eigen (Swin-T)| 0.056 | 0.169 | 2.205 | 0.084 | 0.970 | 0.996 | 0.999 | 7.738 |
+
+
+## Contact
+
+If you have any questions, please feel free to contact swshao@buaa.edu.cn.
+
+
+## Acknowledgement
+
+Our code is based on the implementation of [NewCRFs](https://github.com/aliyun/NeWCRFs) and [BTS](https://github.com/cleinc/bts). We thank their excellent works.
