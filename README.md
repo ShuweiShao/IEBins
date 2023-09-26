@@ -89,8 +89,7 @@ Please refer to the test.py.
 If you find our work useful in your research please consider citing our paper:
 
 ```
-@inproceedings{
-shao2023IEBins,
+@inproceedings{shao2023IEBins,
 title={IEBins: Iterative Elastic Bins for Monocular Depth Estimation},
 author={Shao, Shuwei and Pei, Zhongcai and Wu, Xingming and Liu, Zhong and Chen, Weihai and Li, Zhengguo},
 booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
