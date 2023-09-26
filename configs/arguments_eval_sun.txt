@@ -12,4 +12,4 @@
 --max_depth_eval 10
 --eigen_crop
 
---checkpoint_path model_zoo/model_nyu.ckpt
+--checkpoint_path model_zoo/nyu_L.pth

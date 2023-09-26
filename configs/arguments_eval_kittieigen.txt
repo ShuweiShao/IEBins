@@ -13,4 +13,4 @@
 --max_depth_eval 80
 --garg_crop
 
---checkpoint_path model_zoo/model_kittieigen.ckpt
+--checkpoint_path model_zoo/kittieigen_L.pth
