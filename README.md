@@ -13,6 +13,9 @@
 <div>
     <sup>1</sup>Beihang University, <sup>2</sup>Anhui University, <sup>3</sup>A*STAR
 </div>
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/iebins-iterative-elastic-bins-for-monocular/monocular-depth-estimation-on-kitti-eigen)](https://paperswithcode.com/sota/monocular-depth-estimation-on-kitti-eigen?p=iebins-iterative-elastic-bins-for-monocular)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/iebins-iterative-elastic-bins-for-monocular/monocular-depth-estimation-on-nyu-depth-v2)](https://paperswithcode.com/sota/monocular-depth-estimation-on-nyu-depth-v2?p=iebins-iterative-elastic-bins-for-monocular)
+
 
 <div>
     <h4 align="center">
