@@ -21,6 +21,7 @@
     </h4>
 </div>
 
+[![KITTI Benchmark](https://img.shields.io/badge/KITTI%20Benchmark-2nd%20among%20all%20at%20submission%20time-blue)](https://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_prediction)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/iebins-iterative-elastic-bins-for-monocular/monocular-depth-estimation-on-kitti-eigen)](https://paperswithcode.com/sota/monocular-depth-estimation-on-kitti-eigen?p=iebins-iterative-elastic-bins-for-monocular)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/iebins-iterative-elastic-bins-for-monocular/monocular-depth-estimation-on-nyu-depth-v2)](https://paperswithcode.com/sota/monocular-depth-estimation-on-nyu-depth-v2?p=iebins-iterative-elastic-bins-for-monocular)
 
