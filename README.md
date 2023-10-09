@@ -84,7 +84,7 @@ Please refer to the test.py.
 
 ## Models
 | Model | Abs.Rel. | Sqr.Rel | RMSE | RMSElog | a1 | a2 | a3| SILog| Link|
-| :--- | :---: | :---: | :---: |  :---: |  :---: |  :---: |  :---: |  :---: | :---: |
+| ------------ | :---: | :---: | :---: |  :---: |  :---: |  :---: |  :---: |  :---: | :---: |
 |NYUv2 (Swin-L)| 0.087 | 0.040 | 0.314 | 0.112 | 0.936 | 0.992 | 0.998 | 8.777 |[Google](https://drive.google.com/file/d/14Rn-vxvpXO2EXRaWqCPmh2JufvOurwtl/view?usp=drive_link); [Baidu](https://pan.baidu.com/s/19ikXXNp-SAn_1VEBN0Pwdw)(code:8lyh)|
 |NYUv2 (Swin-T)| 0.108 | 0.061 | 0.375 | 0.136 | 0.893 | 0.984 | 0.996 | 10.932 |[Google](https://drive.google.com/file/d/1eYkTb3grbDitQ9tJdg1DhAOaGmqgHWHK/view?usp=drive_link); [Baidu](https://pan.baidu.com/s/1bCcIwnjNN00GqSrp80sMqQ)(code:9egu)|
 |KITTI_Eigen (Swin-L)| 0.050 | 0.142 | 2.011 | 0.075 | 0.978 | 0.998 | 0.999 | 6.821 |[Google](https://drive.google.com/file/d/1xaVLDq7zJ-C2GtFvABolSUtK7gzvNQNd/view?usp=drive_link); [Baidu](https://pan.baidu.com/s/16P4rwhOIuGysM2XoafxGog)(code:glt7)|
