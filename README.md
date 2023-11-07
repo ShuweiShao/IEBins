@@ -17,7 +17,7 @@
 
 <div>
     <h4 align="center">
-        • <a href="https://arxiv.org/pdf/2309.14137" target='_blank'>NeurIPS 2023</a> •
+        • <a href="https://arxiv.org/abs/2309.14137" target='_blank'>NeurIPS 2023</a> •
     </h4>
 </div>
 
