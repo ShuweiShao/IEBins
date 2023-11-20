@@ -29,7 +29,7 @@ parser = argparse.ArgumentParser(description='IEBins PyTorch implementation.', f
 parser.convert_arg_line_to_args = convert_arg_line_to_args
 
 parser.add_argument('--model_name', type=str, help='model name', default='iebins')
-parser.add_argument('--encoder', type=str, help='type of encoder, base07, large07', default='large07')
+parser.add_argument('--encoder', type=str, help='type of encoder, base07, large07, tiny07', default='large07')
 parser.add_argument('--data_path', type=str, help='path to the data', required=True)
 parser.add_argument('--filenames_file', type=str, help='path to the filenames text file', required=True)
 parser.add_argument('--input_height', type=int, help='input height', default=480)
@@ -49,8 +49,6 @@ else:
 
 if args.dataset == 'kitti' or args.dataset == 'nyu':
     from dataloaders.dataloader import NewDataLoader
-elif args.dataset == 'kittipred':
-    from dataloaders.dataloader_kittipred import NewDataLoader
 
 model_dir = os.path.dirname(args.checkpoint_path)
 sys.path.append(model_dir)
