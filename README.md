@@ -85,6 +85,12 @@ You can download the qualitative depth results of [IEBins](https://arxiv.org/abs
 
 If you want to derive these results by yourself, please refer to the test.py.
 
+If you want to perform inference on a single image, run
+```
+python iebins/inference_single_image.py --dataset kitti or nyu --image_path path to image --checkpoint_path path to pretrained checkpoint --max_depth 80 or 10
+```
+Then you can acquire the qualitative depth result.
+
 
 ## Models
 | Model | Abs Rel | Sq Rel | RMSE | a1 | a2 | a3| Link|
