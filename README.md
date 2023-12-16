@@ -45,7 +45,7 @@ pip install matplotlib, tqdm, tensorboardX, timm, mmcv, open3d
 ```
 
 ## Datasets
-You can prepare the datasets KITTI and NYUv2 according to [here](https://github.com/cleinc/bts) and download the SUN RGB-D dataset from [here](https://rgbd.cs.princeton.edu/), and then modify the data path in the config files to your dataset locations.
+You can prepare the datasets KITTI and NYUv2 according to [here](https://github.com/cleinc/bts/tree/master/pytorch) and download the SUN RGB-D dataset from [here](https://rgbd.cs.princeton.edu/), and then modify the data path in the config files to your dataset locations.
 
 
 ## Training
