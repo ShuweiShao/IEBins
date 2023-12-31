@@ -49,7 +49,7 @@ You can prepare the datasets KITTI and NYUv2 according to [here](https://github.
 
 
 ## Training
-First download the pretrained encoder backbone from [here](https://github.com/microsoft/Swin-Transformer), and then modify the pretrain path in the config files.
+First download the pretrained encoder backbone from [here](https://github.com/microsoft/Swin-Transformer), and then modify the pretrain path in the config files. If you want to train the KITTI_Official model, First download the pretrained encoder backbone from [here](https://drive.google.com/file/d/1qjDnMwmEz0k0XWh7GP2aNPGiAjvOPF_5/view?usp=drive_link, provided by [MIM](https://github.com/SwinTransformer/MIM-Depth-Estimation).
 
 Training the NYUv2 model:
 ```
