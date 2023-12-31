@@ -56,9 +56,14 @@ Training the NYUv2 model:
 python iebins/train.py configs/arguments_train_nyu.txt
 ```
 
-Training the KITTI model:
+Training the KITTI_Eigen model:
 ```
 python iebins/train.py configs/arguments_train_kittieigen.txt
+```
+
+Training the KITTI_Official model:
+```
+python iebins_kittiofficial/train.py configs/arguments_train_kittiofficial.txt
 ```
 
 ## Evaluation
@@ -72,11 +77,15 @@ Evaluate the NYUv2 model on the SUN RGB-D dataset:
 python iebins/eval_sun.py configs/arguments_eval_sun.txt
 ```
 
-Evaluate the KITTI model:
+Evaluate the KITTI_Eigen model:
 ```
 python iebins/eval.py configs/arguments_eval_kittieigen.txt
 ```
 
+To generate KITTI Online evaluation data for the KITTI_Official model:
+```
+python iebins_kittiofficial/test.py --data_path path to dataset --filenames_file ./data_splits/kitti_official_test.txt --max_depth 80 --checkpoint_path path to pretrained checkpoint  --dataset kitti --do_kb_crop
+```
 
 ## Qualitative Depth and Point Cloud Results
 You can download the qualitative depth results of [IEBins](https://arxiv.org/abs/2309.14137), [NDDepth](https://arxiv.org/abs/2309.10592), [NeWCRFs](https://openaccess.thecvf.com/content/CVPR2022/html/Yuan_Neural_Window_Fully-Connected_CRFs_for_Monocular_Depth_Estimation_CVPR_2022_paper.html), [PixelFormer](https://openaccess.thecvf.com/content/WACV2023/html/Agarwal_Attention_Attention_Everywhere_Monocular_Depth_Prediction_With_Skip_Attention_WACV_2023_paper.html), [AdaBins](https://openaccess.thecvf.com/content/CVPR2021/html/Bhat_AdaBins_Depth_Estimation_Using_Adaptive_Bins_CVPR_2021_paper.html) and [BTS](https://arxiv.org/abs/1907.10326) on the test sets of NYUv2 and KITTI_Eigen from [here](https://pan.baidu.com/s/1zaFe40mwpQ5cvdDlLZRrCQ?pwd=vfxd) and download the qualitative point cloud results of IEBins, NDDepth, NeWCRFS, PixelFormer, AdaBins and BTS on the NYUv2 test set from [here](https://pan.baidu.com/s/1WwpFuPBGBUaSGPEdThJ6Rw?pwd=n9rw). 
