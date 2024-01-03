@@ -108,6 +108,7 @@ Then you can acquire the qualitative depth result.
 |KITTI_Eigen (Swin-T)| 0.056 | 0.169 | 2.205 | 0.970 | 0.996 | 0.999 |[[Google]](https://drive.google.com/file/d/1s0LXZmS6_Q4_H_0hmbOldPcVhlRw8Dut/view?usp=drive_link) [[Baidu]](https://pan.baidu.com/s/1xgeqIX5WP5F2MFwypMWV5A?pwd=ygfi)|
 
 | Model | SILog| Abs Rel | Sq Rel | RMSE | a1 | a2 | a3| Link|
+| ------------ | :---: || :---: | :---: | :---: |  :---: |  :---: |  :---: |  :---: |
 |KITTI_Official (Swinv2-L)| 7.476 | 5.200 | 0.788 | 2.335 | 0.974 | 0.996 | 0.999 |[[Google]](https://drive.google.com/file/d/19ARBiDTIvtZSWJVvhbEWBcZMonXsiOX1/view?usp=drive_link)|
 
 
