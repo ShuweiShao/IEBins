@@ -109,7 +109,7 @@ Then you can acquire the qualitative depth result.
 
 | Model | SILog| Abs Rel | Sq Rel | RMSE | a1 | a2 | a3| Link|
 | ------------ | :---: | :---: | :---: | :---: |  :---: |  :---: |  :---: |  :---: |
-|KITTI_Official (Swinv2-L)| 7.476 | 5.200 | 0.788 | 2.335 | 0.974 | 0.996 | 0.999 |[[Google]](https://drive.google.com/file/d/19ARBiDTIvtZSWJVvhbEWBcZMonXsiOX1/view?usp=drive_link)|
+|KITTI_Official (Swinv2-L)| 7.48 | 5.20 | 0.79 | 2.34 | 0.974 | 0.996 | 0.999 |[[Google]](https://drive.google.com/file/d/19ARBiDTIvtZSWJVvhbEWBcZMonXsiOX1/view?usp=drive_link)|
 
 
 ## Citation
