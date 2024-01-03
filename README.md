@@ -106,6 +106,7 @@ Then you can acquire the qualitative depth result.
 |NYUv2 (Swin-T)| 0.108 | 0.061 | 0.375 | 0.893 | 0.984 | 0.996 |[[Google]](https://drive.google.com/file/d/1eYkTb3grbDitQ9tJdg1DhAOaGmqgHWHK/view?usp=drive_link) [[Baidu]](https://pan.baidu.com/s/1v5_MJtP0YOSoark9Yw1RaQ?pwd=2k5d)|
 |KITTI_Eigen (Swin-L)| 0.050 | 0.142 | 2.011 | 0.978 | 0.998 | 0.999 |[[Google]](https://drive.google.com/file/d/1xaVLDq7zJ-C2GtFvABolSUtK7gzvNQNd/view?usp=drive_link) [[Baidu]](https://pan.baidu.com/s/16mRrKrr9PdZhuZ3ZlkmNlA?pwd=lcjd)|
 |KITTI_Eigen (Swin-T)| 0.056 | 0.169 | 2.205 | 0.970 | 0.996 | 0.999 |[[Google]](https://drive.google.com/file/d/1s0LXZmS6_Q4_H_0hmbOldPcVhlRw8Dut/view?usp=drive_link) [[Baidu]](https://pan.baidu.com/s/1xgeqIX5WP5F2MFwypMWV5A?pwd=ygfi)|
+|KITTI_Official (Swinv2-L)| 5.200 | 0.788 | 2.335 | 0.974 | 0.996 | 0.999 |[[Google]](https://drive.google.com/file/d/19ARBiDTIvtZSWJVvhbEWBcZMonXsiOX1/view?usp=drive_link)|
 
 
 ## Citation
