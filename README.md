@@ -99,6 +99,20 @@ python iebins/inference_single_image.py --dataset kitti or nyu --image_path path
 ```
 Then you can acquire the qualitative depth result.
 
+## Gradio Demo
+
+1. Install the gradio and other required libraries
+
+```python
+pip install gradio gradio_imageslider timm -q
+```
+
+2. Run the demo
+
+```python
+python notebooks/app.py
+```
+
 
 ## Models
 | Model | Abs Rel | Sq Rel | RMSE | a1 | a2 | a3| Link|
