@@ -22,6 +22,7 @@
 </div>
 
 [![KITTI Benchmark](https://img.shields.io/badge/KITTI%20Benchmark-2nd%20among%20all%20at%20submission%20time-blue)](https://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_prediction)
+[![Hugging Space Badge](https://img.shields.io/badge/🤗-Open%20In%20Spaces-blue.svg)](https://huggingface.co/spaces/umuthopeyildirim/IEBins-Depth-Estimation)
 
 ## Abstract
 
@@ -97,6 +98,20 @@ If you want to perform inference on a single image, run:
 python iebins/inference_single_image.py --dataset kitti or nyu --image_path path to image --checkpoint_path path to pretrained checkpoint --max_depth 80 or 10
 ```
 Then you can acquire the qualitative depth result.
+
+## Gradio Demo
+
+1. Install the gradio and other required libraries
+
+```python
+pip install gradio gradio_imageslider timm -q
+```
+
+2. Run the demo
+
+```python
+python notebooks/app.py
+```
 
 
 ## Models
