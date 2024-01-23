@@ -22,6 +22,7 @@
 </div>
 
 [![KITTI Benchmark](https://img.shields.io/badge/KITTI%20Benchmark-2nd%20among%20all%20at%20submission%20time-blue)](https://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_prediction)
+[![Hugging Space Badge](https://img.shields.io/badge/🤗-Open%20In%20Spaces-blue.svg)](https://huggingface.co/spaces/umuthopeyildirim/IEBins-Depth-Estimation)
 
 ## Abstract
 
