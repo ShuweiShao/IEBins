@@ -140,6 +140,19 @@ year={2023}
 }
 ```
 
+```
+@article{shao2025iebins,
+  title={IEBins: Iterative elastic bins for monocular depth estimation and completion},
+  author={Shao, Shuwei and Pei, Zhongcai and Chen, Weihai and Chen, Peter CY and Li, Zhengguo},
+  journal={International Journal of Computer Vision},
+  volume={133},
+  number={5},
+  pages={2463--2486},
+  year={2025},
+  publisher={Springer}
+}
+```
+
 ## Contact
 
 If you have any questions, please feel free to contact swshao@buaa.edu.cn.
